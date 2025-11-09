@@ -10,15 +10,15 @@ const projects = [
         demoUrl: "https://liuarthur88-profile.vercel.app",
         githubUrl: "https://github.com/liuarthur-88/personal-profile-website",
     },
-    // {
-    //     id: 2,
-    //     title: "My Profile Website",
-    //     description: "Description of My Profile Website",
-    //     image: "/projects/1.png",
-    //     tags:["React", "Tailwind CSS"],
-    //     demoUrl: "https://my-website.com",
-    //     githubUrl: "https://github.com/username/my-website",
-    // },
+    {
+        id: 2,
+        title: "Responsive Resaurant Website",
+        description: "Description of Responsive Resaurant Website",
+        image: "/projects/2.png",
+        tags:["React", "Tailwind CSS"],
+        demoUrl: "https://liuarthur88-restaurant.vercel.app",
+        githubUrl: "https://github.com/liuarthur-88/responsive-restaurant-website",
+    },
     // {
     //     id: 3,
     //     title: "My Profile Website",
@@ -53,7 +53,7 @@ export const ProjectsSection = () => {
                 ) : (
                     <div
                     className={
-                        projects.length === 1
+                        projects.length <= 2 
                         ? "flex justify-center"
                         : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
                     }
