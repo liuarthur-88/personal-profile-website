@@ -1,4 +1,4 @@
-import { Link, Linkedin, Loader2, Mail, Map, Phone, Send } from "lucide-react"
+import { Facebook, Instagram, Link, Linkedin, Loader2, Mail, Map, Phone, Send, Smile, TicketIcon, Twitter } from "lucide-react"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {cn} from "@/lib/utils";
@@ -43,7 +43,7 @@ export const ContactSection = () => {
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12" >
-                    <div className="space-y-8">
+                    <div className="space-y-8 bg-card p-8 rounded-lg shadow-xs">
                         <div className="text-2xl font-semibold mb-6"> Contact Information </div>
 
                         <div className="space-y-6 flex flex-col items-center text-center md:items-start md:text-left">
@@ -54,7 +54,7 @@ export const ContactSection = () => {
                                 <div>
                                     <h4 className="font-medium">Phone</h4>
                                     <a 
-                                        href="tel:+1123-456-789" 
+                                        href="tel:+1 123-456-789" 
                                         target="_blank" rel="noopener noreferrer" 
                                         className="text-muted-foreground hover:text-primary transition-colors"
                                     >+1 123-456-789</a>
@@ -67,10 +67,10 @@ export const ContactSection = () => {
                                 <div>
                                     <h4 className="font-medium">Email</h4>
                                     <a 
-                                        href="mailto:hello@arthurliu123" 
+                                        href="mailto:pearl.milk88@gmail.com" 
                                         target="_blank" rel="noopener noreferrer" 
                                         className="text-muted-foreground hover:text-primary transition-colors"
-                                    >hello@arthurliu123</a>
+                                    >pearl.milk88@gmail.com</a>
                                 </div>
                             </div>
                             <div className="flex flex-col items-center space-y-2 md:flex-row md:items-start md:space-y-0 md:space-x-4">
@@ -89,6 +89,15 @@ export const ContactSection = () => {
                             <div className="flex space-x-4 justify-ceenter">
                                 <a href="#" target="_blank">
                                     <Linkedin/>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <Twitter/>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <Instagram/>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <Facebook />
                                 </a>
                             </div>
                         </div>

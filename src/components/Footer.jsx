@@ -7,7 +7,7 @@ export const Footer = () => {
             <p className="text-sm text-muted-foreground">
                 &copy; {new Date().getFullYear()} Arthur. All rights reserved.
             </p>
-            <a href="#hero" className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors">
+            <a href="#hero" className="right-6 p-3 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors">
                 <ArrowUp size={20} />
             </a>
         </footer>

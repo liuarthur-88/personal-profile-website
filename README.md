@@ -67,4 +67,4 @@ npm run build
 
 **Liu Arthur**
 📫 [pearl.milk88@gmail.com](mailto:pearl.milk88@gmail.com)
-🔗 [dohaveyet.com](https://dohaveyet.com)
+🔗 [https://liuarthur88-profile.vercel.app/](https://liuarthur88-profile.vercel.app/)

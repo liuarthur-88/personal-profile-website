@@ -1,15 +1,15 @@
 import { ArrowBigRight, Clock, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-    // {
-    //     id: 1,
-    //     title: "My Profile Website",
-    //     description: "Description of My Profile Website",
-    //     image: "/projects/1.png",
-    //     tags:["React", "Tailwind CSS"],
-    //     demoUrl: "https://my-website.com",
-    //     githubUrl: "https://github.com/username/my-website",
-    // },
+    {
+        id: 1,
+        title: "My Profile Website",
+        description: "Description of My Profile Website",
+        image: "/projects/1.png",
+        tags:["React", "Tailwind CSS"],
+        demoUrl: "https://liuarthur88-profile.vercel.app",
+        githubUrl: "https://github.com/liuarthur-88/personal-profile-website",
+    },
     // {
     //     id: 2,
     //     title: "My Profile Website",
@@ -51,7 +51,13 @@ export const ProjectsSection = () => {
                         </p>
                     </div>
                 ) : (
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cold-3 gap-8">
+                    <div
+                    className={
+                        projects.length === 1
+                        ? "flex justify-center"
+                        : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+                    }
+                    >
                         {projects.map((project, key) => (
                             <div 
                                 key={key} 
