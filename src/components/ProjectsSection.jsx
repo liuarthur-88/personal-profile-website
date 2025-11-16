@@ -19,15 +19,15 @@ const projects = [
         demoUrl: "https://liuarthur88-restaurant.vercel.app",
         githubUrl: "https://github.com/liuarthur-88/responsive-restaurant-website",
     },
-    // {
-    //     id: 3,
-    //     title: "My Profile Website",
-    //     description: "Description of My Profile Website",
-    //     image: "/projects/1.png",
-    //     tags:["React", "Tailwind CSS"],
-    //     demoUrl: "https://my-website.com",
-    //     githubUrl: "https://github.com/username/my-website",
-    // },
+    {
+        id: 3,
+        title: "Recipe Finder Website",
+        description: "Description of Recipe Finder Website",
+        image: "/projects/3.png",
+        tags:["React", "Tailwind CSS"],
+        demoUrl: "https://liuarthur88-recipe-app.vercel.app/",
+        githubUrl: "https://github.com/liuarthur-88/food-recipe-app",
+    },
 ];
 
 export const ProjectsSection = () => {
@@ -86,6 +86,7 @@ export const ProjectsSection = () => {
                                     <p className="text-muted-foreground text-sm mb-4">
                                         {project.description}
                                     </p>
+                                    
                                     <div className="flex justify-between items-center">
                                         <div className="flex space-x-3">
                                             <a 

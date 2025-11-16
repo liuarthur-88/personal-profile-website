@@ -1,7 +1,7 @@
-import { Facebook, Instagram, Link, Linkedin, Loader2, Mail, Map, Phone, Send, Smile, TicketIcon, Twitter } from "lucide-react"
+import { Facebook, Instagram, Linkedin, Loader2, Mail, Map, Phone, Send, Twitter } from "lucide-react"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import {cn} from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import { useState } from "react";
 
 export const ContactSection = () => {
